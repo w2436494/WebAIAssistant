@@ -1,0 +1,26 @@
+{
+  "name": "webaiassistant",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["chrome-extension", "react", "typescript", "ai"],
+  "author": "",
+  "license": "ISC",
+  "description": "A Chrome extension for AI-powered web assistance with page flipping, conversation, and page summarization.",
+  "dependencies": {
+    "@types/chrome": "^0.1.4",
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "@vitejs/plugin-react": "^4.7.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "typescript": "^5.9.2",
+    "vite": "^6.3.5"
+  }
+}
