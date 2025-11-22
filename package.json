@@ -9,7 +9,12 @@
     "preview": "vite preview",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["chrome-extension", "react", "typescript", "ai"],
+  "keywords": [
+    "chrome-extension",
+    "react",
+    "typescript",
+    "ai"
+  ],
   "author": "",
   "license": "ISC",
   "description": "A Chrome extension for AI-powered web assistance with page flipping, conversation, and page summarization.",
@@ -18,6 +23,7 @@
     "@types/react": "^19.1.10",
     "@types/react-dom": "^19.1.7",
     "@vitejs/plugin-react": "^4.7.0",
+    "llamaindex": "^0.11.28",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "typescript": "^5.9.2",
